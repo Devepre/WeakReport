@@ -12,6 +12,8 @@
 		24FBF4E7222135F600536C2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FBF4E5222135F600536C2E /* Main.storyboard */; };
 		24FBF4E9222135F800536C2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24FBF4E8222135F800536C2E /* Assets.xcassets */; };
 		24FBF4EC222135F800536C2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FBF4EA222135F800536C2E /* LaunchScreen.storyboard */; };
+		24FBF4F42221361200536C2E /* WeakReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FBF4F32221361200536C2E /* WeakReporter.swift */; };
+		24FBF4F62221364A00536C2E /* SomeCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FBF4F52221364A00536C2E /* SomeCenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		24FBF4E8222135F800536C2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24FBF4EB222135F800536C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24FBF4ED222135F800536C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24FBF4F32221361200536C2E /* WeakReporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakReporter.swift; sourceTree = "<group>"; };
+		24FBF4F52221364A00536C2E /* SomeCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeCenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				24FBF4E1222135F600536C2E /* AppDelegate.swift */,
+				24FBF4F32221361200536C2E /* WeakReporter.swift */,
+				24FBF4F52221364A00536C2E /* SomeCenter.swift */,
 				24FBF4E3222135F600536C2E /* ViewController.swift */,
 				24FBF4E5222135F600536C2E /* Main.storyboard */,
 				24FBF4E8222135F800536C2E /* Assets.xcassets */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24FBF4F62221364A00536C2E /* SomeCenter.swift in Sources */,
 				24FBF4E4222135F600536C2E /* ViewController.swift in Sources */,
+				24FBF4F42221361200536C2E /* WeakReporter.swift in Sources */,
 				24FBF4E2222135F600536C2E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3MKUUZEFBH;
 				INFOPLIST_FILE = WeakReport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3MKUUZEFBH;
 				INFOPLIST_FILE = WeakReport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
